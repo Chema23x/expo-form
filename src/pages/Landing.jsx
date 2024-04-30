@@ -21,7 +21,7 @@ const Landing = () => {
     return(
       <>  
         <section className="w-full h-full flex justify-center items-center">
-            <div className="flex flex-col items-center w-4/6 h-full bg-[#D9D9D9] z-10 absolute overflow-y-scroll mt-10">
+            <div className="flex flex-col items-center w-4/6 h-full bg-[#D9D9D9] z-10 absolute overflow-y-scroll mt-10 overflow-x-hidden">
                 <div className="flex flex-col lg:flex-row w-11/12 items-center justify-evenly gap-4 lg:gap-0 h-24 mb-28 md:mb-40 lg:mb-12 mt-10">
                   <span className="text-[#E2282B] text-5xl md:text-6xl lg:text-5xl xl:text-7xl font-bold slide-in-right ">
                     Road to
@@ -63,7 +63,7 @@ const Landing = () => {
                   width={1500}
                   height={300}
                   alt="Page background"
-                  className="mb-6 scale-x-110"
+                  className="mb-6 scale-x-105"
                 />
                 <button className="bg-[#FF0000] text-white px-12 py-2 rounded-md mb-4 font-bold hover:bg-slate-50 hover:text-black hover:border-2 hover:border-black">ENVIAR</button>
             </div>
